@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{did_csv_builder}
-  s.version = "0.1.4.beta"
+  s.version = "0.1.4.beta2"
 
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Tom Stuart"]
-  s.date = %q{2011-02-14}
+  s.authors = [%q{Tom Stuart}]
+  s.date = %q{2011-07-29}
   s.description = %q{CSV template Rails plugin}
   s.email = %q{didier@nocoffee.fr}
   s.extra_rdoc_files = [
@@ -21,9 +21,9 @@ Gem::Specification.new do |s|
      "lib/csv_builder/template_handler/base.rb"
   ]
   s.homepage = %q{https://github.com/did/csv_builder}
-  s.rdoc_options = ["--charset=UTF-8"]
-  s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.4.2}
+  s.rdoc_options = [%q{--charset=UTF-8}]
+  s.require_paths = [%q{lib}]
+  s.rubygems_version = %q{1.8.5}
   s.summary = %q{CSV template Rails plugin}
 
   if s.respond_to? :specification_version then
